@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { Fragment, useEffect } from 'react';
+import SearcBar from './component/layout/SearchBar';
+import Logs from './component/logs/Logs';
+
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
@@ -12,7 +15,12 @@ const App = () => {
 
   return (
     <div className="App">
-      My App
+      <Fragment>
+        <SearcBar />
+        <div className="container">
+          <Logs/>
+        </div>
+      </Fragment>
     </div>
   );
 }
