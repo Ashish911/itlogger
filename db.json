@@ -13,13 +13,6 @@
       "tech": "Sam Smith",
       "date": "2021-03-17T16:14:33.266Z",
       "id": 2
-    },
-    {
-      "message": "Pc not working at workstation 001",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2021-03-17T16:14:49.770Z",
-      "id": 3
     }
   ],
   "techs": [
